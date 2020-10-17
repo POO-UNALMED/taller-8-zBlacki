@@ -24,5 +24,10 @@ public class Jugador extends Futbolista{
 	public boolean jugarConLasManos() {
 		return (false);
 	}
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
 
